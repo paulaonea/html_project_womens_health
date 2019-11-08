@@ -2,17 +2,6 @@ body{
     margin: 0;
 }
 
-nav ul{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    list-style-type: none;
-}
-
 .topnav {
     font-family: 'Montserrat';
     background-color: white;
@@ -26,7 +15,7 @@ nav ul li {
     float: left;
     color: #180268;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 53px;
     margin-right: 25px;
     margin-left: 25px;
     text-decoration: none;
@@ -59,7 +48,7 @@ nav ul li {
     margin-bottom: 10px; 
 }
 
-.login-container {
+.dropdown {
     float: right;
     position: relative;
     padding: 6px;
@@ -67,7 +56,42 @@ nav ul li {
     margin-right: 200px;
     background: white;
     font-family: 'Montserrat';
-    font-size: 17px;
+    font-size: 10px;
     border: none;
     cursor: pointer;
 }
+
+.dropbtn {
+    background-color: white;
+    border: none;
+    font-family: 'Montserrat';
+    color: #180268;
+    font-size: 17px;
+    margin-top: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    font-stretch: condensed;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(240, 194, 194);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
