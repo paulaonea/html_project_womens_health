@@ -49,11 +49,11 @@ body{
 }
 
 .dropdown {
-    float: right;
+    float: left;
     position: relative;
     padding: 6px;
-    margin-top: 35px;
-    margin-right: 200px;
+    margin-top: 32px;
+    margin-left: 20px;
     background: white;
     font-family: 'Montserrat';
     font-size: 10px;
@@ -95,3 +95,12 @@ body{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: white;}
+
+.image {
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px; 
+}
