@@ -12,7 +12,7 @@
 <body>
     <div class="menu">
         <a href=index.html>
-            <img class="logo-img" src="img/logo.png" alt="Women's Health" width="80" height="80" align=center>        
+            <img class="logo-img" src="img/logo.png" alt="Women's Health" width="80" height="80">        
         </a>  
         <nav class="topnav">
             <a class="active" href="index.html">Home</a>
@@ -28,10 +28,21 @@
                 <a href="login.html">Subscribe</a>
             </div>
         </div>
-            
-        </div>
     </div>
 
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+
+    <div class="loginBox">
+        <form method="post" action="index.html">
+            <div class="loginForm">
+                <h1>Sign In</h1>
+                <input type="username" name="username" value="username" class="loginField" />
+                <input type="password" name="email" value="email" class="loginField" />
+                <button class="loginButton">Sign In</button>
+                <!-- <a href="#"><div class="btn">Sign In</div></a> -->
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
