@@ -1,5 +1,6 @@
-body{
+body {
     margin: 0;
+    min-height: 2000px;
     padding: 0;
 }
 
@@ -83,7 +84,7 @@ body{
     margin-left: 40px;
     margin-top: 10px;
     margin-right: 20px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .subscribe{
@@ -125,15 +126,14 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-stretch: condensed;
-
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:white;
+    background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -146,7 +146,173 @@ body{
 
 .dropdown-content a:hover {background-color: rgb(165, 216, 250);}
 
-.dropdown:hover .dropdown-content {display: block;}
+/* nutrition */
+
+/* .top-img {
+    clear: both;
+    background-image: url("../img/nutrition.png");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 160%;
+    margin-top: 15%; */
+/* } */
+
+
+
+.headerVid {
+    padding-top: 50px;
+    clear:both;
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.fruitsimg {
+    margin-top: 3%;
+    float: left;
+    margin-left: 10%;
+    padding-right: 5%;
+ }
+ .foodsvitc {
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+ }
+
+ p {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -2%;
+   }
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding-top: 5%;
+    padding-bottom:80px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top:2%;
+}
+.vitcfact-container {
+    height:80px;
+    width:500px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: grey;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.vitcfact-container .lightingimg {
+    margin-top: 12px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+ol {
+
+    margin-left: 10%;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color:slategray;
+
+}
+li {
+    margin-bottom: 2%;
+}
+
+.articlecontainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#e0f4e4;
+    height: 450px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:5%;
+    
+}
+
+.howmuch {
+margin-left: 30px;
+margin-top: 20px;
+align-content: flex-start;
+}
+.benefits {
+    align-content: center;
+    margin-top: 20px;
+}
+.supplements {
+    margin-right: 30px;
+    margin-top: 20px;
+    align-content: flex-end ;
+
+}
+h4{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+a:link {
+    text-decoration: none;
+    color: green;
+    
+}
+a:visited {
+    color:blue;
+}
+a:active{
+    color:red;
+}
+a:hover {
+    color:purple;
+}
+.vitcgrid {
+    margin-top:2%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: grey;
+    /* padding-bottom: 20px; */
+    margin-right: 10%;
+}
+.ingridients {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+.receipes{
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+/* .howmuch {
+    padding-right: 10px;
+} */
 
 .dropdown:hover .dropbtn {background-color: white;}
 
