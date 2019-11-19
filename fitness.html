@@ -25,7 +25,7 @@
         </nav>
         <div class="subscribe">
             <a href="login.html">
-                <img src="img/subscribe.png" alt="Subscribe" width="100" height="40">
+                <img src="img/subscribe.png" alt="Subscribe" width="110" height="40">
             </a>  
         </div>
         <div class="dropdown">
@@ -110,7 +110,20 @@
             <li><span>If you add more muscle, you’ll use more calories even when you’re not being active.</span></li>
             <li><span>Being active helps you keep more muscle as you age. More muscle means it will be easier to control your weight.</span></li>
         </ul>
-
+        <div>
+            <h4 class=formTitle>Calculate your BMI</h4>
+            <p class="formContent">Height
+                <input type="text" id="height" onchange="heightChanged()">
+                <input type="radio" name="heightUnits" id="cm" value="cm" checked="checked" onchange="heightUnitsChanged()"/>cm
+                <input type="radio" name="heightUnits" id="in" value="in" onchange="heightUnitsChanged()"/>in 
+            </p>
+            <p class="formContent">Weight
+                <input type="text" id="weight" onchange="weightChanged()">
+                <input type="radio" name="weightUnits" id="kilograms" value="kg" checked="checked" onchange="weightUnitsChanged()"/>kg
+                <input type="radio" name="weightUnits" id="lb"  value="lb" onchange="weightUnitsChanged()"/>lb 
+            </p>
+            <p id="formResult">Your BMI is: <span id="bmiValue"></span> - <span id="bmiResult"></span></p>
+        </div>
         <h3 class="subsection-title"><span class="subsection-title-green">This week's advice: </span>4 Yoga Poses To Undo In-Flight Aches</h4>
         <p class="paragraph">You arrive in your hotel room ready for your hols but the flight has made your neck and shoulders stiff, 
             the backs of your legs achey and your spine needs a stretch. Yoga to the rescue! First thing to do is, get 

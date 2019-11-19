@@ -89,7 +89,7 @@ body{
 .subscribe{
     float: right;
     position: relative;
-    margin-top: 46px;
+    margin-top: 48px;
     margin-right: 60px;
 }
 
@@ -101,36 +101,6 @@ body{
     opacity: 0.8;
     transform: translateY(3px);
 }
-
-/* .subscribe-button{
-    float: right;
-    position: relative;
-    margin-top: 38px;
-    margin-right: 80px;
-    padding: 9px 10px;
-    font-family: 'Montserrat';
-    font-size: 17px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #230750;
-    background-color:  rgb(96, 176, 230);
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0 5px #999;
-}
-
-.subscribe-button:hover {
-    background-color: rgb(46, 155, 228);
-    color: black;
-}
-
-.subscribe-button:active {
-    background-color: rgb(46, 155, 228);
-    box-shadow: 0 2px #666;
-    transform: translateY(3px);
-  } */
 
 .dropdown {
     float: right;
@@ -345,6 +315,46 @@ a.watchVideo {
     margin-top: 10px;
 }
 
-a.watchVideo :hover{
+a.watchVideo :hover {
     color: rgb(7, 10, 177);
+}
+
+.underweight, .normal, .overweight, .obese {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.underweight {
+    color: orangered;
+}
+
+.overweight {
+    color: orangered;
+    font-weight: bold;
+}
+
+.obese {
+    color: red;
+    font-weight: bold;
+}
+
+.hidden {
+    display: hidden;
+}
+
+.formTitle{
+    font-family: 'Montserrat';
+    font-size: 17px;
+    color: rgb(91, 14, 136)
+}
+
+.formContent, .formResult {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: black;
+}
+
+.formResult {
+    font-weight: 600;
 }
