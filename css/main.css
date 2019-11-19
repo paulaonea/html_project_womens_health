@@ -326,16 +326,16 @@ a.watchVideo :hover {
 }
 
 .underweight {
-    color: orangered;
+    color: rgb(247, 106, 55);
 }
 
 .overweight {
-    color: orangered;
+    color: rgb(247, 106, 55);
     font-weight: bold;
 }
 
 .obese {
-    color: red;
+    color: rgb(167, 23, 23);
     font-weight: bold;
 }
 
