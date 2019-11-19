@@ -28,14 +28,16 @@
                 <a href="login.html">Subscribe</a>
             </div>
         </div>
-        
-        <div class="top-img"></div>
 
+        <video autoplay muted loop class="headerVid">
+                <source src="img/food-header.mp4" type="video/mp4">
+              </video>
+        
         <div>
         <h1>7 Foods That Actually Have More Vitamin C than an Orange</h1>
         <div>
-            <img src="img/Vitaminc.jpg" height="500px" width="600px" class="fruitsimg">
-        <p>
+            <img src="img/Vitaminc.jpg" height="400px" width="500px" class="fruitsimg">
+        <p class="foodsvitc">
            <em> Runny nose, sore throat?</em> Sounds like you need a dose of <em>Vitamin C</em>. But before you reach for an orange,
             consider these vitamin C facts.
             <br>
@@ -49,7 +51,7 @@
             ‘It has excellent antioxidant properties which means that it helps to control some of the consequences
             of tissue damage and unhealthy lifestyle choices like drinking and smoking.’
         </p>
-    </div>
+        </div>
         <h2>Vitamin C rich foods</h2>
         <p>Vitamin C is mostly found in fruit and veg – and oranges are a great source. What might surprise you,
             however,
@@ -61,8 +63,10 @@
             Vitamin C in an orange (100g): 53.2 mg
         </div>
     </div>
+    <div class="vitcgrid">
+    <div class="ingridients">
         <ol>
-            <li>Kale - 120 mg</li>
+            <li onmouseover="dispReceipe('Kale')">Kale - 120 mg </li> 
             <li>Strawberries - 58.8 mg</li>
             <li>Broccoli - 89.2 mg</li>
             <li>Red Peppers - 242.5 mg</li>
@@ -71,20 +75,26 @@
             <li>Pineapple - 78.9 mg</li>
         </ol>
     </div>
+    <div class="receipes">
+        <h2> Receipes </h2>
+        <p id="receipeText">Hover Over to see Receipes</p>
+    </div>
+    </div>      
+    </div>
     </div>
     <div class="articlecontainer">
     
         <div class="howmuch">
             <a href="https://www.womenshealthmag.com/uk/health/conditions/a709023/foods-high-in-vitamin-c/"
                 target="blank">
-                <img src="img\howmuchvitc.png" height="300px" width="300px">
+                <img src="img\howmuchvitc.png" height="300px" width="500px">
                 <h4>How much vitamin C do you need?</h4>
             </a>
         </div>
 
         <div class="benefits">
             <a href="https://www.skincarebyalana.com/blog/top-40-things-know-vitamin-c/" target="blank">
-                <img src="img\skinbenfvitc.jpg" height="300px" width="300px">
+                <img src="img\skinbenfvitc.jpg" height="300px" width="500px">
                 <h4>Vitamin C Benefits For Skin | Side Effects</h4>
             </a>
         </div>
@@ -92,16 +102,18 @@
         <div class="supplements">
             <a href="https://www.womenshealthmag.com/uk/health/conditions/a709023/foods-high-in-vitamin-c/"
                 target="blank">
-                <img src="img\vitcsupplements.jpeg" height="300px" width="300px" alt="Vitamic C Supplements">
-               <h4> Should you take vitamin C supplements?</h4>
+                <img src="img\vitcsupplements.jpeg" height="300px" width="500px" alt="Vitamic C Supplements">
+                <h4>Should you take vitamin C supplements?</h4>
             </a>
         </div>
+        
+
 
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid necessitatibus porro consequatur doloribus ad eius asperiores. 
-        Architecto aliquid earum qui iure voluptatibus illum accusamus recusandae, fugit, adipisci veniam vel minus?</p>
+    <hr>
 
-
+<script src="scripts/main.js"></script>
 </body>
+
 
 </html>

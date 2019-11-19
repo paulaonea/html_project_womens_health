@@ -102,8 +102,6 @@ body {
     background-color: white;
 }
 
-/* nutrition */
-
 .bg-img {
     clear: both;
     background-image: url("../img/healthyliving.jpg");
@@ -123,14 +121,28 @@ body {
     background-color: #D6F0EA;
 }
 
-.top-img {
+/* nutrition */
+
+/* .top-img {
     clear: both;
     background-image: url("../img/nutrition.png");
     height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80% 160%;
-    margin-top: 15%;
+    margin-top: 15%; */
+/* } */
+
+
+
+.headerVid {
+    padding-top: 50px;
+    clear:both;
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -141,11 +153,15 @@ h1 {
 }
 
 .fruitsimg {
-    margin-top: 8%;
-    position: center;
-    text-align: center;
-    
-
+    margin-top: 3%;
+    float: left;
+    margin-left: 10%;
+    padding-right: 5%;
+ }
+ .foodsvitc {
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-left: 5%;
  }
 
  p {
@@ -154,16 +170,17 @@ h1 {
     letter-spacing: 0.5px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: -2%;
    }
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 5%;
+    padding-bottom:80px;
     text-align: left;
     margin-left: 10%;
-    margin-top:80px;
+    margin-top:2%;
 }
 .vitcfact-container {
     height:80px;
@@ -207,6 +224,7 @@ li {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    margin-top:5%;
     
 }
 
@@ -223,7 +241,6 @@ align-content: flex-start;
     margin-right: 30px;
     margin-top: 20px;
     align-content: flex-end ;
-    font-size: 25px;
 
 }
 h4{
@@ -231,7 +248,7 @@ h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-a {
+a:link {
     text-decoration: none;
     color: green;
     
@@ -245,7 +262,29 @@ a:active{
 a:hover {
     color:purple;
 }
-
+.vitcgrid {
+    margin-top:2%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: grey;
+    /* padding-bottom: 20px; */
+    margin-right: 10%;
+}
+.ingridients {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+.receipes{
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
 /* .howmuch {
     padding-right: 10px;
 } */
