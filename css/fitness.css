@@ -113,22 +113,42 @@ img.align-center{
 
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: left;
     margin-top: 0px;
     padding-right: 20px;
     padding-left: 20px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 50px;
-    height: 370px;
     background-color: rgb(43, 183, 207);
     color: #fff;
 }
 
 .image-flex {
-    margin-top: 10px;
+    margin: 5px;
+    margin-top: 15px;
     padding: 0;
 }
+
+.image-flex img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    .flex-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+		max-width: 1200px;
+		margin: auto;
+    }
+
+    .image-flex {
+		width: 290px;
+	}
+}
+
+
 
 .title {
     font-family: 'Montserrat';
