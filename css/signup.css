@@ -1,0 +1,69 @@
+
+.signupForm {
+    text-align: center;
+    width:100%;
+    margin-top: 10px;
+    padding: 1px;
+    background-color: rgb(243, 240, 240);
+}
+
+.formTitle {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+
+.instructions1 {
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(46, 45, 45);
+}
+
+.headers {
+    margin-left: 20%;
+    max-width: 770px;
+    height: 40px;
+}
+
+.title {
+    font-family: 'Montserrat';
+    float: left;
+    margin: 11px 0px 11px 20px;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(46, 45, 45);
+    width: 170px;
+}
+
+.details {
+    margin: 0;
+    width: 450px;
+    height: 34px;
+    border-radius: 5px;
+    border: rgb(148, 148, 148) solid 1px:  
+}
+
+.instructions2 {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(46, 45, 45);
+    width: 115px;
+    float: right;
+    margin-top: 1px;
+}
+
+.signupButton {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    background-color: rgb(189, 187, 187);
+    text-align: center;
+    margin-left: 47%;
+    margin-top: 15px;
+}
