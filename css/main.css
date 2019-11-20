@@ -90,8 +90,8 @@ body{
 .subscribe{
     float: right;
     position: relative;
-    margin-top: 48px;
-    margin-right: 60px;
+    margin-top: 50px;
+    margin-right: 70px;
 }
 
 .subscribe a:hover{
