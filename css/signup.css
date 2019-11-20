@@ -18,7 +18,7 @@
     font-family: 'Montserrat';
     text-align: center;
     padding: 0;
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 14px;
     font-weight: 300;
     color: rgb(46, 45, 45);
@@ -26,14 +26,14 @@
 
 .headers {
     margin-left: 20%;
-    max-width: 770px;
-    height: 40px;
+    max-width: 780px;
+    height: 55px;
 }
 
 .title {
     font-family: 'Montserrat';
     float: left;
-    margin: 11px 0px 11px 20px;
+    margin: 26px 0px 11px 20px;
     padding: 0;
     font-size: 13px;
     font-weight: 400;
@@ -43,27 +43,68 @@
 
 .details {
     margin: 0;
-    width: 450px;
-    height: 34px;
+    padding 0;
+    width: 550px;
+    height: 30px;
     border-radius: 5px;
     border: rgb(148, 148, 148) solid 1px:  
 }
 
-.instructions2 {
+.error, .nonerror {
     font-family: 'Montserrat';
-    font-size: 10px;
-    font-weight: 300;
-    color: rgb(46, 45, 45);
-    width: 115px;
-    float: right;
-    margin-top: 1px;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
 }
 
-.signupButton {
-    font-family: 'Montserrat';
-    font-size: 20px;
-    background-color: rgb(189, 187, 187);
-    text-align: center;
-    margin-left: 47%;
-    margin-top: 15px;
+.error {
+    color: red;
 }
+
+.nonerror {
+    color: white;
+}
+
+.thankyou {
+    text-align: center;
+    width:100%;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat';
+    font-size: 40px;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.button {
+    position: center;
+    left: 42%;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(48, 47, 47);
+    padding: 6px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: rgb(81, 17, 87)}
+
+.button:active {
+  background-color: rgb(81, 17, 87);
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+

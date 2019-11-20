@@ -9,7 +9,7 @@
     400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,
     700,700i,900,900i&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
-    <script src="./js/app.js"></script>
+    <script src="./js/signup.js"></script>
     <meta charset="UTF-8">
     <title>Women's Health</title>
 </head>
@@ -26,9 +26,11 @@
             <a href="qa.html">Frequently asked questions</a>
         </nav>
         <div class="subscribe">
-            <a href="login.html">
-                <img src="img/subscribe.png" alt="Subscribe" width="100" height="40">
-            </a>  
+            <button class="subscribebtn">Subscribe</button>
+            <div class="subscribe-content">
+                <input type="text" name="email" />
+                <input id="submit" type="submit" name="subscribe" value="subscribe">
+            </div>
         </div>
         <div class="dropdown">
             <button class="dropbtn">My Profile</button>
@@ -39,48 +41,71 @@
         </div>
     </div>
 
+    <!---------------------------------------------------->
     <div class="signupForm">
         <h1 class="formTitle">QUICK SECURE SIGN UP</h1>
     </div>
 
     <p class="instructions1">All fields are required</p>
 
+
     <div class="headers">
-        <p class="title">Title</p>
-        <input type="title" name="title" class="details" />
+        <div><p class="title">Title</p></div>
+        <div>
+            <p id="titleError" class="nonerror">Please choose: Mr, Mrs, Ms, Miss, Doctor or Other</p>
+            <input id="title" type="title" name="title" class="details" />
+        </div>
     </div>
     <br>
 
     <div class="headers">
-        <p class="title">First Name</p>
-        <input type="firstName" name="firstName" class="details" />
+        <div><p class="title">First Name</p></div>
+        <div>
+            <p id="firstNameError" class="nonerror">Required field</p>
+            <input id="firstName" type="firstName" name="firstName" class="details" />
+        </div>        
     </div>
     <br>  
 
     <div class="headers">
-        <p class="title">Last Name</p>
-        <input type="lastName" name="lastName" class="details" />
+        <div><p class="title">Last Name</p></div>
+        <div>
+            <p id="lastNameError" class="nonerror">Required field</p>
+            <input id="lastName" type="lastName" name="lastName" class="details" />
+        </div>
     </div>  
     <br>       
 
     <div class="headers">
-        <p class="title">Email</p>
-        <input type="email" name="email" class="details" />
+        <div><p class="title">Email</p></div>
+        <div>
+            <p id="emailError" class="nonerror">Please enter a valid email address.</p>
+            <input id="email" type="email" name="email" class="details" />
+        </div>
     </div>  
     <br>  
 
     <div class="headers">
-        <p class="title">Password</p>
-        <input type="password1" name="password1" class="details" />
-        <span class="instructions2"> Password must be 6-12 characters and include letters and numbers.</span>
+        <div><p class="title">Password</p></div>
+        <div>
+            <p id="passwordError" class="nonerror">Password must be 6-12 characters and include capital letters and numbers</p>
+            <input id="password" type="password" name="password1" class="details" />
+        </div>
     </div>
     <br>
 
     <div class="headers">
-        <p class="title">Retype Password</p>
-        <input type="password2" name="password2" class="details" />
-    </div>              
-    <button class="signupButton">Signup</button>
+        <div><p class="title">Retype Password</p></div>
+        <div>
+            <p id="retypePasswordError" class="nonerror">Passwords do not match</p>
+            <input id="retypePassword" type="password" name="password2" class="details" />
+        </div>
+
+    </div>     
+    
+    <div class="wrapper"> 
+        <button id="signupButton" class="button">SignUp</button>
+    </div>
 
 
 </body>
