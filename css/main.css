@@ -111,6 +111,7 @@ body{
     font-stretch: condensed;
     width:120px;
     padding-top:5px;
+    outline: none;
     padding-bottom:5px;
     border-radius:20px;
     border: #180268 2px solid
@@ -119,6 +120,11 @@ body{
 .subscribebtn:hover {
     background-color: rgb(128, 128, 128);
     border: rgb(128, 128, 128) 2px solid
+}
+
+.subscribebtn:active {
+    background-color: rgb(156, 156, 156);
+    border: rgb(156, 156, 156) 2px solid
 }
 
 .subscribe-content {
@@ -173,11 +179,11 @@ body{
     font-weight: 600;
     font-stretch: condensed;
     width:120px;
+    outline: none;
     padding-top:5px;
     padding-bottom:5px;
     border-radius:20px;
     border: #180268 2px solid
-
 }
 
 .dropdown-content {
@@ -206,5 +212,9 @@ body{
 
 .dropdown:hover .dropbtn {background-color: white;}
 
+.dropbtn:active {
+    background-color: rgb(167, 167, 167);
+    color: rgb(167, 167, 167);
+    border: rgb(167, 167, 167 2px solid;
 }
 
