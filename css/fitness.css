@@ -68,10 +68,15 @@ ul.align-left{
     font-family: 'Montserrat';
     font-size: 14px;
     margin-top: 0px;
-    margin-left: 235px;
+    margin-left: 0px;
     margin-bottom: 5px;
     padding-inline-start: 35px;
 }
+
+@media only screen and (min-width: 768px) {
+    ul.align-left{
+        margin-left: 235px;
+}}
 
 ul.align-right{
     list-style-type: square;
@@ -90,6 +95,7 @@ span{
 }
 
 img.align-left{
+    display: none;
     float: left;
     margin-right: 15px;
     margin-top: 5px;
@@ -101,6 +107,12 @@ img.align-right{
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    img.align-left{
+        display: block;
+    }
 }
 
 img.align-center{
@@ -151,12 +163,12 @@ img.align-center{
     .flex-container {
         flex-direction: row;
         flex-wrap: wrap;
-		max-width: 1200px;
+		max-width: 1300px;
 		margin: auto;
     }
 
     .image-flex {
-		width: 290px;
+		max-width: 300px;
 	}
 }
 
