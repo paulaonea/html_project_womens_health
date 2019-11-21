@@ -105,11 +105,23 @@ img.align-right{
 
 img.align-center{
     float: right;
-    margin-right: 15%;
+    margin-right: 5%;
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 25px;
 }
+
+.imagesToShow {
+    display: none;
+}
+
+
+@media only screen and (min-width: 1100px) {
+    .imagesToShow {
+        display: block;
+    }
+}
+
 
 .flex-container {
     display: flex;
