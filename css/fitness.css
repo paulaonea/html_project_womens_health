@@ -11,6 +11,14 @@
 }
 
 .video-in-view{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.picture-in-view{
     display: block;
     position: absolute;
     top: 50%;
@@ -22,10 +30,24 @@
     font-family: 'Montserrat';
     font-size: 50px;
     font-weight: bold;
-    color: rgb(64, 64, 64);
+    color: rgb(31, 31, 31);
     position: absolute;
     left: 80px;
     bottom: 5px;
+}
+
+@media only screen and (min-width: 768px){
+    .video-in-view {
+        display: block;
+    }
+
+    .picture-in-view {
+        display: none;
+    }
+
+    .page-title-overflow {
+        color: rgb(64, 64, 64);
+    }
 }
 
 .subsection-title{
