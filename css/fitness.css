@@ -197,7 +197,6 @@ img.align-center{
 }
 
 
-
 .title {
     font-family: 'Montserrat';
     font-size: 17px;
@@ -263,7 +262,9 @@ a.watchVideo :hover {
 .formTitle{
     font-family: 'Montserrat';
     font-size: 17px;
-    color: rgb(91, 14, 136)
+    color: rgb(91, 14, 136);
+    margin-top: 10px;
+    text-align: center;
 }
 
 .formContent, .formResult {
@@ -274,4 +275,47 @@ a.watchVideo :hover {
 
 .formResult {
     font-weight: 600;
+}
+
+.calculator {
+    padding: 5px 10px 5px 20px;
+    width: 280px;
+    box-shadow: -1px 0px 2px grey;
+    background-color: white;
+    position: fixed;
+    right: 80px;
+    top: 50%;
+    z-index: 3000;
+}
+
+.calculatorTag {
+    padding: 10px 5px 10px 10px;
+    text-align: center;
+    margin: 0;
+    width: 65px;
+    box-shadow: -1px 0px 2px grey;
+    background-color: #180268;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    z-index: 3000;
+    cursor: pointer;
+}
+
+.tag {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
 }
