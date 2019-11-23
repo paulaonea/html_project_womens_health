@@ -46,17 +46,17 @@ h1 {
     cursor: pointer;
 }
 
-.answer_hidden, .answer_shown {
+.answer-hidden, .answer-shown {
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 300;
     margin-left: 15px;
 }
 
-.answer_hidden {
+.answer-hidden {
     display: none;
 }
 
-.answer_shown {
+.answer-shown {
     display: block;
 }

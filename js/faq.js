@@ -6,8 +6,8 @@ function expand(id) {
         let newId = `a${idNumber}`;
         let answer = document.getElementById(newId);
         console.log(answer);
-        if (answer.className == "answer_shown") answer.className = "answer_hidden"
-        else answer.className = "answer_shown";
+        if (answer.className == "answer-shown") answer.className = "answer-hidden"
+        else answer.className = "answer-shown";
     }
 }
 
