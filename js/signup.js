@@ -10,14 +10,14 @@ document.addEventListener('DOMContentLoaded', function(){
             errors += 1;
             };
         
-        if (document.getElementById('firstName').value == "") {
+        if (document.getElementById('firstName').value == "" || document.getElementById('firstName').value == "First Name") {
             document.getElementById('firstNameError').className = "error";
             errors += 1;
             }
         else document.getElementById('firstNameError').className = "nonerror";       
 
 
-        if (document.getElementById('lastName').value == "") {
+        if (document.getElementById('lastName').value == "" || document.getElementById('lastName').value == "Last Name") {
             document.getElementById('lastNameError').className = "error";
             errors += 1;
             }
