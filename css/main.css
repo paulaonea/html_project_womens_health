@@ -519,11 +519,14 @@ a.watchVideo :hover {
     color: rgb(91, 14, 136)
 }
 
+<<<<<<< Updated upstream
 .formContent, .formResult {
     font-family: 'Montserrat';
     font-size: 15px;
     color: black;
 }
+=======
+>>>>>>> Stashed changes
 
 .formResult {
     font-weight: 600;
