@@ -36,7 +36,6 @@ body{
     bottom: 0;
     width: 100%;
     height: 200px;
-    background-color: #230750;
     color: #fff;
   }
 
@@ -126,7 +125,7 @@ body{
     font-stretch: condensed;
     width:120px;
     padding-top:5px;
-    outline: none;
+    outline: none;  
     padding-bottom:5px;
     border-radius:20px;
     border: #180268 2px solid
@@ -164,6 +163,12 @@ body{
 .subscribe:hover .subscribe-content {
     display: block;
     opacity: 1;
+}
+
+@media only screen and (max-width: 768px){
+    .subscribe {
+        display: none;
+    }
 }
 
 
