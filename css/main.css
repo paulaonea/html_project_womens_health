@@ -165,15 +165,6 @@ body{
     opacity: 1;
 }
 
-@media only screen and (max-width: 768px){
-    .subscribe {
-        display: none;
-    }
-}
-
-
-
-
 
 .dropdown {
     float: right;
