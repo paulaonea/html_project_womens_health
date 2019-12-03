@@ -95,12 +95,6 @@ body{
     display: block;
 }
 
-@media only screen and (min-width: 768px){
-    .nav-left {
-        display: block;
-    }
-    
-}
 
 .subscribe{
     float: right;
@@ -165,18 +159,6 @@ body{
     display: block;
     opacity: 1;
 }
-
-@media only screen and (max-width: 768px){
-    .subscribe {
-        display: none;
-    }
-    .nav1 {
-        display: none;
-    }
-}
-
-
-
 
 
 .dropdown {
@@ -342,12 +324,13 @@ a.cross:hover {
     cursor: pointer;
 }
 
+
 @media only screen and (min-width: 1150px) {
-    .nav, .nav-desktop {
+    .nav, .nav-left, .nav-desktop {
         display: block;
     }
 
-    .nav-media, .menu-icon {
+    .nav-media {
         display: none;
     }
 
