@@ -333,5 +333,10 @@ a.cross:hover {
     .nav-media {
         display: none;
     }
-
 } 
+
+@media only screen and (max-width: 500px) {
+    .subscribe {
+        display: none;
+    }
+}
