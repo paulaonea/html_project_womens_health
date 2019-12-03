@@ -5,7 +5,7 @@ body{
 }
 
 /* ----------- main sections:  ------------ */
-.nav{   /*top navigation container */
+.nav, .nav-desktop {   /*top navigation container */
     position: static;
     margin: 0px;
     width: 100%;
@@ -99,6 +99,7 @@ body{
     .nav-left {
         display: block;
     }
+    
 }
 
 .subscribe{
@@ -164,6 +165,18 @@ body{
     display: block;
     opacity: 1;
 }
+
+@media only screen and (max-width: 768px){
+    .subscribe {
+        display: none;
+    }
+    .nav1 {
+        display: none;
+    }
+}
+
+
+
 
 
 .dropdown {
@@ -256,6 +269,8 @@ body{
 
 .nav2.active {
     left: 0;
+    background-color: white;
+    
 }
 
 .nav2 a {
@@ -328,7 +343,7 @@ a.cross:hover {
 }
 
 @media only screen and (min-width: 1150px) {
-    .nav {
+    .nav, .nav-desktop {
         display: block;
     }
 

@@ -9,7 +9,7 @@ const recipeVideos = {
     Sprouts: "-hpYoi2aagw",
     Pineapple: "68eq5xzp_dA",
 }
-    const receipeTextList = `<iframe width="300" height="300" max-width="100%"  src="https://www.youtube.com/embed/${recipeVideos[ingridients]}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    const receipeTextList = `<iframe width="400" height="300" max-width="100%"  src="https://www.youtube.com/embed/${recipeVideos[ingridients]}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
     
 
      document.getElementById("receipeText").innerHTML = receipeTextList;

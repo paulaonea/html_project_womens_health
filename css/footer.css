@@ -3,6 +3,7 @@
 .bottom-nav {
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat';
 }
 
 .bottom-nav p:hover {
