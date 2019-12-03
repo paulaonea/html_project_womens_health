@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    min-height: 2000px;
+    min-height: 800px;
 }
 
 /* ----------- main sections:  ------------ */
@@ -27,7 +27,7 @@ body{
     padding: 0;
     margin-left: 80px;
     margin-right: 80px;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
 }
 
 #footer {  /* footer of the page */
