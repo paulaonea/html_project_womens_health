@@ -2,10 +2,10 @@
     height: 200px;
 }
 
-.footer-color{
+/* .footer-color{
     background-color: rgb(247, 244, 244);
     box-shadow: -1px 0px 3px rgb(99, 98, 98);
-}
+} */
 
 .bottom-nav {
     display: flex;
